@@ -3,8 +3,8 @@ package assessedExercise;
 public class Algorithms {
 
 	/*
-	 * Exercise 1a aa - array which requires sorting, p - starting index, r - initial
-	 * index of the pivot
+	 * Exercise 1a aa - array which requires sorting, p - starting index, r -
+	 * initial index of the pivot
 	 */
 	public static void quicksortA(int[] aa, int p, int r) {
 		if (p < r) {
@@ -14,10 +14,10 @@ public class Algorithms {
 			quicksortA(aa, q + 1, r);
 		}
 	}
-	
+
 	/*
-	 * Exercise 1b aa - array which requires sorting, p - starting index, r - index of
-	 * the pivot, cutoff - minimum number of elements to continue partitioning
+	 * Exercise 1b aa - array which requires sorting, p - starting index, r - index
+	 * of the pivot, cutoff - minimum number of elements to continue partitioning
 	 */
 	public static void quicksortB(int[] aa, int p, int r, int cutoff) {
 		quicksortCutoff(aa, p, r, cutoff);
@@ -78,7 +78,7 @@ public class Algorithms {
 		}
 	}
 
-	static void merge(int a[], int p, int q, int r) {
+	private static void merge(int a[], int p, int q, int r) {
 		int n1 = q - p + 1;
 		int n2 = r - q;
 		int[] L = new int[n1 + 1];
