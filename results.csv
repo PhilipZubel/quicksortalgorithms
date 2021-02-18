@@ -1,6 +1,7 @@
-,int10.txt,int50.txt,int100.txt,int1000.txt,int20k.txt,int500k.txt,intBig.txt,dutch.txt,
-quicksorta,3.0,0.0,0.0,8.0,9.0,89.0,268.0,982.0,
-quicksortc,0.0,0.0,0.0,1.0,5.0,89.0,202.0,1283.0,
-quicksortd,0.0,0.0,0.0,1.0,14.0,106.0,223.0,149.0,
-insertion,0.0,0.0,1.0,44.0,889.0,196135.0,353816.0,72435.0,
-merge,0.0,0.0,0.0,1.0,6.0,93.0,195.0,86.0,
+,int10.txt,int50.txt,int100.txt,int1000.txt,int20k.txt,int500k.txt,intBig.txt,dutch.txt
+quicksorta,0,0,0,0,2,77,148,515
+quicksortc,0,0,0,0,2,70,149,508
+quicksortd,0,0,0,0,3,68,133,31
+insertion,0,0,0,1,115,70890,282511,69457
+merge,0,0,0,0,3,96,190,80
+quicksortb(16),0,0,0,0,2,55,114,408
